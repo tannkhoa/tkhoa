@@ -1,0 +1,134 @@
+{
+  "baucua": {
+    "jackpot": "1000000",
+    "history": []
+  },
+  "chanle": {
+    "jackpot": "1000000",
+    "history": []
+  },
+  "taixiu": {
+    "activeThreads": [],
+    "history": [
+      {
+        "dice": [
+          1,
+          2,
+          4
+        ],
+        "total": 7,
+        "result": "xiu",
+        "timestamp": 1761155176003
+      },
+      {
+        "dice": [
+          5,
+          1,
+          5
+        ],
+        "total": 11,
+        "result": "tai",
+        "timestamp": 1761151575040
+      },
+      {
+        "dice": [
+          3,
+          3,
+          2
+        ],
+        "total": 8,
+        "result": "xiu",
+        "timestamp": 1760435281052
+      },
+      {
+        "dice": [
+          3,
+          1,
+          3
+        ],
+        "total": 7,
+        "result": "xiu",
+        "timestamp": 1760431680001
+      },
+      {
+        "dice": [
+          4,
+          2,
+          2
+        ],
+        "total": 8,
+        "result": "xiu",
+        "timestamp": 1760428078973
+      }
+    ],
+    "jackpot": "1000000",
+    "players": {}
+  },
+  "vietlott655": {
+    "activeThreads": [],
+    "jackpot": "1000000",
+    "history": [
+      {
+        "mainNumbers": [
+          7,
+          18,
+          19,
+          27,
+          31,
+          38
+        ],
+        "extraNumber": 23,
+        "timestamp": 1761155176550
+      },
+      {
+        "mainNumbers": [
+          9,
+          12,
+          20,
+          28,
+          29,
+          41
+        ],
+        "extraNumber": 19,
+        "timestamp": 1761151575006
+      },
+      {
+        "mainNumbers": [
+          17,
+          19,
+          26,
+          41,
+          46,
+          51
+        ],
+        "extraNumber": 55,
+        "timestamp": 1760435281002
+      },
+      {
+        "mainNumbers": [
+          2,
+          13,
+          21,
+          22,
+          35,
+          51
+        ],
+        "extraNumber": 33,
+        "timestamp": 1760431680101
+      },
+      {
+        "mainNumbers": [
+          1,
+          13,
+          16,
+          41,
+          42,
+          54
+        ],
+        "extraNumber": 26,
+        "timestamp": 1760428078012
+      }
+    ],
+    "players": {}
+  }
+}
