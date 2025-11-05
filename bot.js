@@ -19,8 +19,8 @@
                    `=---='
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   PHẬT ĐỘ, CODE KHÔNG LỖI, TỐI ƯU KHÔNG BUG
-            DEVELOPER: NDQ x LQT BY 1.6.0
-    UPGRADE: Hà Huy Hoàng 1.6.0 => ...
+            DEVELOPER: NDQ x Ltk BY 1.6.0
+    UPGRADE: Lương Tấn Khoa 1.6.0 => ...
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 import { spawn } from 'child_process';
