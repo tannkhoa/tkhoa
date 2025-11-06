@@ -1,7 +1,7 @@
-[# 🤖 Zalo ChatBot
+# 🤖 Zalo ChatBot
 
 **Zalo ChatBot** được phát triển bằng **JavaScript** 
-Tác giả: **ltk**
+Tác giả: **NQD**
 Mod lại bởi **LTkhoa** – 
 
 ```
@@ -26,76 +26,32 @@ Mod lại bởi **LTkhoa** –
 
 ---
 
-## 📌 Tính năng (v1.5.5)
+Bắt đầu từ phiên bản 1.5.0 trở lên được viết bởi LTk
 
-### 🛠 Quản lý nhóm Zalo tự động
-- Tự động bảo vệ nhóm
-  - **Chống Spam**
-  - **Chặn Liên kết**
-  - **Chặn Nội Dung Tiêu Cực**
-  - **Chống Gửi Ảnh Nhạy Cảm**
-  - **Chống Thu Hồi Tin Nhắn**
-  - **Chỉ Được Phép Gửi Tin Nhắn Văn Bản**
-  - **Kick Thành Viên**
-  - **Chặn Thành Viên**
-  - **Tự Động Duyệt Thành Viên**
-  - **Tin Nhắn Tag All**
+## Tính năng của phiên bản (v1.5.4)
 
-### 🎯 Social Bot
-- Hơn **50 lệnh** giải trí:
-  - 📺 YouTube
-  - 🎵 TikTok
-  - 🎶 ZingMP3, NhacCuaTui
-  - ...và nhiều hơn nữa.
+Các tính năng sau có trong phiên bản này:
 
+- **Auto Manager Group Zalo**: Với hơn 50 lệnh quản lý:
+- Tự động chống spam/chống liên kết/chống badword/chống phát hiện...
+- **Social Bot**: Với hơn 50 lệnh để gửi nội dung giải trí từ youtube, tiktok, zingmp3, game,.... và nhiều hơn nữa.
+- Tổng cộng khi **** viết tiếp code này nó đã đạt tới 135 lệnh
 
-## 🚀 Hướng dẫn sử dụng
+## Hướng dẫn sử dụng
 
-**Yêu Cầu Bắt Buộc: Có Bản Nodejs V20**
-
-### 1️⃣ Cấu hình
-Mở tệp `config.json` trong thư mục `assets` và thiết lập:
-
-- **Cookie**, **Imei**
- - Sử dụng tiện ích get-imei-cookie [tại đây](https://www.mediafire.com/file/u65t0y95nw0oujy/get-imei-cookie-js.zip/file)
-
- - Giải nén file ra sau đó đưa lên tiện ích chrome để sử dụng
-
-- **UserAgent**  
-  - Giữ mặc định hoặc lấy UserAgent mới tại [whatmyuseragent.com](https://whatmyuseragent.com/)
-
----
-
-### 2️⃣ Chạy Bot
-Chạy file:
-```bash
-run.bat
+1. **Cấu hình**: Cấu hình bot trong tệp `config.json` nằm trong thư mục `assets`. Sau đây là những gì bạn cần thiết lập:
+- **Cookie**: Sử dụng tiện ích mở rộng **J2TEAM Cookies** để lấy cookie của bạn. Bạn có thể tìm tiện ích mở rộng [tại đây](https://chrome.google.com/webstore/detail/j2team-cookies/okpidcojinmlaakglcigllbpcpajaibco).
+- **IMEI**: Truy cập Zalo Web, sau đó mở Công cụ dành cho nhà phát triển (DevTools), chuyển sang tab Console và nhập lệnh sau:
+```javascript
+localStorage.getItem('z_uuid');
 ```
+- **UserAgent**: Bạn có thể để nguyên UserAgent mặc định hoặc thay thế bằng UserAgent của riêng bạn. Truy cập [whatmyuseragent.com](https://whatmyuseragent.com/) để kiểm tra UserAgent của bạn.
 
----
+2. **Chạy Bot**: Sau khi định cấu hình các cài đặt cần thiết, hãy chạy tệp `run.bat` để khởi động bot.
 
-### 3️⃣ Thiết lập quyền Admin
-- Lấy **UID** tài khoản cần cấp quyền qua terminal.
-- Thêm vào file:
-```
-assets/data/list_admin.json
-```
+3. **Thiết lập Quyền quản trị**: Bạn có thể xem UID của tài khoản mà bạn muốn cấp quyền quản trị thông qua bảng điều khiển. Thêm UID vào tệp `list_admin.json` trong thư mục `assets/data`.
 
----
+4. **Khởi động lại Công cụ**: Đảm bảo khởi động lại công cụ sau khi cấu hình để đảm bảo mọi thứ hoạt động chính xác.
+5. Nhớ sửa buffer lại thành **buffder/index.js** trong file modules khi đã tải npm i nhé
 
-### 4️⃣ Khởi động lại bot
-Sau khi cấu hình, hãy **khởi động lại** bot để áp dụng thay đổi.
-
----
----
-
-
-
-## ❤️ Lời cảm ơn
-
- chúc bạn sử dụng bot vui vẻ
-
-Cảm ơn bạn đã sử dụng mã nguồn của tôi.  
-Hy vọng bạn sẽ thích những tính năng mà **Zalo ChatBot** mang lại!
-
-](https://github.com/tannkhoa/tkhoa)
+Cảm ơn bạn đã sử dụng mã nguồn của chúng tôi. Chúng tôi hy vọng bạn thích các tính năng mà nó cung cấp!
