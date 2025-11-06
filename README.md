@@ -1,4 +1,4 @@
-# 🤖 Zalo ChatBot
+[# 🤖 Zalo ChatBot
 
 **Zalo ChatBot** được phát triển bằng **JavaScript** 
 Tác giả: **ltk**
@@ -98,3 +98,4 @@ Sau khi cấu hình, hãy **khởi động lại** bot để áp dụng thay đ�
 Cảm ơn bạn đã sử dụng mã nguồn của tôi.  
 Hy vọng bạn sẽ thích những tính năng mà **Zalo ChatBot** mang lại!
 
+](https://github.com/tannkhoa/tkhoa)
